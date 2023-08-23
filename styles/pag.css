@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family= Arimo :wght@500;600 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 4%, rgba(9,9,121,0.9024859943977591) 40%, rgba(231,0,255,0.9557072829131653) 100%);
+}
+
+main {
+
+    min-width: 300px;
+    max-width: 1000px;
+    /*width: 900px;*/
+    padding: 30px 20px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+h1 {
+    color: #01c1c1;
+    font-size: 35px;
+}
+
+h2 {
+    font-family: 'Arimo', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #a000b5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+img {
+    width: 100%;
+    /*width: 600px;
+    position: relative;
+    left: 130px;*/
+}
+
+figcaption {
+    position: relative;
+    left: 560px;
+}
+
+p {
+    font-family: 'Arimo', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px 0px;
+}
+

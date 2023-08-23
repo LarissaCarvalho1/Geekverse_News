@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family= Arimo :wght@500;600 & display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #0a0656fc;
+}
+
+.cabecalho {
+    background-color: antiquewhite;
+}
+
+.h1-header {
+    font-family: 'Allerta Stencil', sans-serif;
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 65px;
+    padding: 30px;
+}
+
+span {
+    color: #e200ff;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 30px;
+    background-color: black;
+    justify-content: center;
+    
+}
+
+
+.link {
+    font-family: 'Arimo', Arial, Helvetica, sans-serif;
+    color: white;
+    transition: 0.5;
+    font-size: 15px;
+}
+
+.link:hover {
+    color: #e200ff;
+}
+
+.link-article {
+    color: #00feff;
+    font-size: 15px;
+}
+
+.link-article:active {
+    color: aliceblue;
+}
+
+.flex-conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.flex-item {
+    padding: 10px;
+    margin: 1%;
+    width: 500px;
+}
+
+.imageminicial {
+    width: 400px;
+    position: relative;
+    left: 38px;
+}
+
+article h2{
+    font-size: 20px;
+    color: #00feff;
+    text-align: justify;
+    width: 400px;
+    margin-top: 10px;
+    position: relative;
+    left: 38px;
+}
+
+article p {
+    font-family: 'Arimo', Arial, Helvetica, sans-serif;
+    color: rgba(240, 248, 255, 0.882);
+    font-size: 17px;
+    width: 400px;
+    margin-top: 15px;
+    position: relative;
+    left: 38px;
+}
+
+/* Section informações pág. */
+
+div {
+    height: 160px;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;   
+}
+
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.h3-Logo {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 30px; 
+    text-align: center;
+    color: white;  
+}
+
+.title-section {
+    font-size: 18px;
+    padding-bottom: 5px;
+    color: #00feff;
+}
+
+
+.item-section {
+    padding-top: 5px;
+}
+
+.columns {
+    columns: 2;
+}
+
+/* Fim section informações pág. */
+
+
+/* Descubra-me / Frase surpresa*/
+
+.section-surpresa {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 150px;
+    padding: 5px;
+    margin: 1px 0px;
+
+}
+
+.surpresa {
+    color:#e200ff;
+    height: 10px;
+    width: 350px;
+    text-align: center; 
+    font-size: 30px;
+    
+}
+
+.p-surpresa {
+    display: none;
+    color: white;
+    font-family: 'Arimo', Arial, Helvetica, sans-serif;
+    background-color: black;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 350px;
+}
+
+.surpresa:hover p {
+    display: block;
+}
+
+/* Fim surpresa */
+
+
+/* Início footer*/
+
+.footer {
+    height: 60px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p-footer {
+    font-family: 'Arimo', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 20px;
+}
+
+/* Fim footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
